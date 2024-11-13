@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User - Petv</title>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+<body class="otherPage">
+    
+    <div class="otherPageBanner">
+        <a href="index.html" id="otherPageTitle">Petv</a>
+        <img src="./assets/banner.png" id="bannerImageOtherPage"/>
+
+        <div id="logOut">Cerrar Sesión</div>
+    </div>
+    <div class="content">
+        <div class="userHeader">
+            <div class="userImage">
+                <!-- <img src="#" alt="imagen de usuario"> -->
+            </div>
+            <div id="userBrief">
+                <div id="userTitle">Nombre de veterinario</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <div id="verticalMenu">
+            <a href="vetHome.html" class="textContent">Información</a>
+            <hr>
+            <a href='vetClinic.html' class="textContent">Clínica</a>
+            <hr>
+            <a href="#" class="textContent">Citas</a>
+            <div id="selected"></div>
+        </div>
+        
+        <div class="userContentContainer">
+            <ul class="appointHeader">
+                <li class="appointCol">Fecha</li>
+                <li class="appointCol">Clínica</li>
+                <li class="appointCol">Dueño</li>
+                <li class="appointCol">Mascota</li>
+                <li class="appointCol">Hora</li>
+            </ul>
+            <hr>
+            <p id="subtitleUser">Próximas</p>
+            <div class="appointmentContainer">
+                <ul class="appointHeader">
+                    <li class="appointCol">DD/MM/AAAA</li>
+                    <li class="appointCol">Nombre Veterinaria</li>
+                    <li class="appointCol"><a href="userHome.html" class="blackLink">Nombre dueño</a></li>
+                    <li class="appointCol">Nombre Mascota</li>
+                    <li class="appointCol">HH:MM hrs.</li>
+                </ul>
+            </div>
+            <div class="appointmentContainer">
+                <ul class="appointHeader">
+                    <li class="appointCol">DD/MM/AAAA</li>
+                    <li class="appointCol">Nombre Veterinaria</li>
+                    <li class="appointCol"><a href="userHome.html" class="blackLink">Nombre dueño</a></li>
+                    <li class="appointCol">Nombre Mascota</li>
+                    <li class="appointCol">HH:MM hrs.</li>
+                </ul>
+            </div>
+            <p id="subtitleUser">Pasadas</p>
+            <div class="appointmentContainer">
+                <ul class="appointHeader">
+                    <li class="appointCol">DD/MM/AAAA</li>
+                    <li class="appointCol">Nombre Veterinaria</li>
+                    <li class="appointCol"><a href="userHome.html" class="blackLink">Nombre dueño</a></li>
+                    <li class="appointCol">Nombre Mascota</li>
+                    <li class="appointCol">HH:MM hrs.</li>
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+    <button class="addButton">+</button>
+</body>
+</html>
